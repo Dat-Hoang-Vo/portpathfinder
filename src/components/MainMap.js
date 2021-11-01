@@ -306,8 +306,8 @@ const MainMap = () => {
     const [suezAccessMark, setSuezAccessMark] = useState("");
     const [panamaAccessMark, setPanamaAccessMark] = useState("");
 
-    let checkMark = <CheckRoundedIcon sx={{color: "#2f8e31"}} />
-    let crossMark = <CloseRoundedIcon sx={{color: "#b73838"}} />
+    let checkMark = <CheckRoundedIcon sx={{color: "#2f8e31", margin: '0', padding: '0'}} />
+    let crossMark = <CloseRoundedIcon sx={{color: "#b73838", margin: '0', padding: '0'}} />
 
     useEffect(() => {
         if (currentShip === "Serendipity") {
@@ -373,7 +373,7 @@ const MainMap = () => {
             />
             </Source>
 
-            <Box sx={{width: '20vw', height: '90vh', backgroundColor: '#222233', color: '#f9f0e1', position: 'absolute', top: '5vh', left: '2vw', borderRadius: '1vh'}}>
+            <Box sx={{width: '22vw', height: '90vh', backgroundColor: '#222233', color: '#f9f0e1', position: 'absolute', top: '5vh', left: '2vw', borderRadius: '1vh'}}>
 
                 <Stack spacing={2} sx={{width: "90%", marginLeft: 'auto', marginRight: 'auto', marginTop: '2vh'}}>
                     <Box>
@@ -383,27 +383,36 @@ const MainMap = () => {
                         <Typography>Traveling at a rate of {shipSpeed} m/s</Typography>
                         <Typography>Costing ${costPerDay} USD per day</Typography>
                     </Box>
-                    <Box>
-                        <Typography variant="h6">Canal Access</Typography>
-                        <Typography>{kielAccessMark}Kiel Canal</Typography>
-                        <Typography>{suezAccessMark}Suez Canal</Typography>
-                        <Typography>{panamaAccessMark}Panama Canal</Typography>
+                    <Box style={{width: '100%'}}>
+                        <Box sx={{float: 'left'}}>
+                            <Typography variant="h6">Canal Access</Typography>
+                            <Typography>{kielAccessMark}Kiel Canal</Typography>
+                            <Typography>{suezAccessMark}Suez Canal</Typography>
+                            <Typography>{panamaAccessMark}Panama Canal</Typography>
+                        </Box>
+                        <Box sx={{float: 'right'}}>
+                            <Typography variant="h6">Travel Information</Typography>
+                            <Stack spacing={1}>
+                                <Typography>Time: {travelTime}</Typography>
+                                <Typography>Cost: {travelCost}</Typography>
+                                <Typography>Distance: {travelDistance}</Typography>
+                            </Stack>
+                        </Box>
                     </Box>
                     <Box>
-                        <Typography variant="h6">Travel Information</Typography>
-                        <Typography>Time: {travelTime}</Typography>
-                        <Typography>Cost: {travelCost}</Typography>
-                        <Typography>Distance: {travelDistance}</Typography>
-                    </Box>
-                    <Box>
-                        <Typography>From: <FmdGoodIcon style={{color: "#2f8e31"}} />{start}</Typography>
-                        <Typography>To: <FmdGoodIcon style={{color: "#b73838"}} />{end}</Typography>
+                        <Typography style={{float: 'left'}}>From: <FmdGoodIcon style={{color: "#2f8e31"}} />{start}</Typography>
+                        <Typography style={{float: 'right'}}>To: <FmdGoodIcon style={{color: "#b73838"}} />{end}</Typography>
                     </Box>
                     <Box>
                         <Button variant="outlined" onClick={handleGetPath} style={{color: '#AACCFF', width: '40%'}}>Get Path</Button>
                         <Button variant="outlined" onClick={handleSetSail} style={{color: '#AACCFF', width: '40%'}}>Draw Path</Button>
                         <Button variant="outlined" onClick={handlePause} style={{color: '#AACCFF', width: '40%'}}>Pause</Button>
                         <Button variant="outlined" onClick={handleClearPath} style={{color: '#AACCFF', width: '40%'}}>Clear Path</Button>
+                    </Box>
+                    <Box>
+                        <Typography variant="h6">Technicals</Typography>
+                        <Typography>Pathfinder runtime: {djikstraRunTime}</Typography>
+                        <Typography>Nodes Visited: {nodesChecked}</Typography>
                     </Box>
                     <Box>
                         <Typography sx={{display: 'inline'}}>Show Ocean Name</Typography>
@@ -415,11 +424,7 @@ const MainMap = () => {
                         <Typography><li>Apologies to Australian and Indonesians.</li></Typography>
                         </ul>
                     </Box>
-                    <Box>
-                        <Typography variant="h6">Technicals</Typography>
-                        <Typography>Pathfinder runtime: {djikstraRunTime}</Typography>
-                        <Typography>Nodes Visited: {nodesChecked}</Typography>
-                    </Box>
+                    
                 </Stack>
             </Box>
         </ReactMapGL>
