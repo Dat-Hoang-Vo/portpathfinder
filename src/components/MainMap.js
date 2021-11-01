@@ -4,7 +4,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 
 import { Box } from '@mui/system';
 
-import { Button, Menu, MenuItem, Stack, Switch, Typography } from '@mui/material'
+import { Button, Menu, MenuItem, Slider, Stack, Switch, ToggleButton, ToggleButtonGroup, Typography } from '@mui/material'
 import FmdGoodIcon from '@mui/icons-material/FmdGood';
 import CheckRoundedIcon from '@mui/icons-material/CheckRounded';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
@@ -263,6 +263,7 @@ const MainMap = () => {
             console.log("Lat " + (route[route.length - 1][1] - route[0][1]) + " Lon " + (route[route.length - 1][0] - route[0][0]));
         }
     }
+
     const handleClearPath = () => {
         setIsPaused(true);
         setUpdateTimer(Math.pow(2,31) - 1);
@@ -270,8 +271,8 @@ const MainMap = () => {
         if (route !== null) {
             resetVisualization();
         }
-        
     }
+
     const [isPaused, setIsPaused] = useState(true);
     const handlePause = () => {
         if (isPaused) {
@@ -410,6 +411,23 @@ const MainMap = () => {
                         <Button variant="outlined" onClick={handleClearPath} style={{color: '#AACCFF', width: '40%'}}>Clear Path</Button>
                     </Box>
                     <Box>
+                    <Typography sx={{display: 'inline'}}>Display Speed</Typography>
+                    <ToggleButtonGroup value={displaySpeed} exclusive onChange={(event, newSpeed) => {setDisplaySpeed(newSpeed)}} color="warning">
+                        <ToggleButton value={0.1}>
+                            <Typography sx={{color: '#f9f0e1'}}>Slow</Typography>
+                        </ToggleButton>
+                        <ToggleButton value={0.25}>
+                            <Typography sx={{color: '#f9f0e1'}}>Normal</Typography>
+                        </ToggleButton>
+                        <ToggleButton value={0.5}>
+                            <Typography sx={{color: '#f9f0e1'}}>Fast</Typography>
+                        </ToggleButton>
+                        <ToggleButton value={0.8}>
+                            <Typography sx={{color: '#f9f0e1'}}>Ultra</Typography>
+                        </ToggleButton>
+                    </ToggleButtonGroup>
+                    </Box>
+                    <Box>
                         <Typography variant="h6">Technicals</Typography>
                         <Typography>Pathfinder runtime: {djikstraRunTime}</Typography>
                         <Typography>Nodes Visited: {nodesChecked}</Typography>
@@ -422,6 +440,7 @@ const MainMap = () => {
                         <Typography><li>Due to MapBox limitations there are no pacific routes.</li></Typography>
                         <Typography><li>Due to the complex nature of calculating canal access cost, I've chosen not to.</li></Typography>
                         <Typography><li>Apologies to Australian and Indonesians.</li></Typography>
+                        <Typography><li>Altering speed mid drawing coudl lead to inaccurate routes</li></Typography>
                         </ul>
                     </Box>
                     
