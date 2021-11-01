@@ -1,0 +1,621 @@
+[
+    {
+        "locationName": "English Channel",
+        "latitude": 50.3,
+        "longitude": -0.74707,
+        "adjacent": ["Celtic Sea", "North of Calais", "Southampton"]
+    },
+    {
+        "locationName": "North of Calais",
+        "latitude": 51.48138,
+        "longitude": 2.373,
+        "adjacent": ["English Channel", "Lowlands Sea", "Rotterdam"]
+    },
+    {
+        "locationName": "Lowlands Sea",
+        "latitude": 53.4,
+        "longitude": 2.92236,
+        "adjacent": ["North of Calais", "Sea of Edinburgh", "Sea of Hamburg", "Baltic Entrance 1", "Rotterdam"]
+    },
+    {
+        "locationName": "Sea of Edinburgh",
+        "latitude": 56.2556,
+        "longitude": -1.8,
+        "adjacent": ["Baltic Entrance 1", "Lowlands Sea", "Sea of Hamburg", "Leith", "The Faroe Sea"]
+    },
+    {
+        "locationName": "Celtic Sea",
+        "latitude": 49,
+        "longitude": -6.13,
+        "adjacent": ["English Channel", "Brest", "Irish Sea", "Bay of Biscay", "Coast of Galicia", "Northern Atlantic 1"]
+    },
+    {
+        "locationName": "Sea of Hamburg",
+        "latitude": 53.969,
+        "longitude": 8.55,
+        "adjacent": ["Baltic Entrance 1", "Sea of Edinburgh", "Lowlands Sea", "Kiel Canal", "Hamburg"]
+    },
+    {
+        "locationName": "Baltic Entrance 1",
+        "latitude": 57.38578,
+        "longitude": 7.4487,
+        "adjacent": ["Sea of Edinburgh", "Sea of Hamburg", "Lowlands Sea", "Baltic Entrance 2", "The Faroe Sea"]
+    },
+    {
+        "locationName": "Baltic Entrance 2",
+        "latitude": 57.9,
+        "longitude": 10.8,
+        "adjacent": ["Baltic Entrance 1", "Baltic Entrance 3", "Baltic Entrance 4", "Gothenburg"]
+    },
+    {
+        "locationName": "Baltic Entrance 3",
+        "latitude": 56.2555,
+        "longitude": 12.3266,
+        "adjacent": ["Sound Toll", "Baltic Entrance 2", "Baltic Entrance 4"]
+    },
+    {
+        "locationName": "Baltic Entrance 4",
+        "latitude": 56.1,
+        "longitude": 10.95,
+        "adjacent": ["Baltic Entrance 2", "Baltic Entrance 3", "Kiel Canal", "Aarhus"]
+    },
+    {
+        "locationName": "Sound Toll",
+        "latitude": 55.681,
+        "longitude": 12.832,
+        "adjacent": ["Baltic Entrance 3", "Baltic Inner 1"]
+    },
+    {
+        "locationName": "Baltic Inner 1",
+        "latitude": 54.6865,
+        "longitude": 12.9638,
+        "adjacent": ["Sound Toll", "Kiel Canal"]
+    },
+    {
+        "locationName": "Kiel Canal",
+        "latitude": 54.5402,
+        "longitude": 10.2063,
+        "adjacent": ["Sea of Hamburg", "Baltic Inner 1", "Baltic Entrance 4"]
+    },
+    {
+        "locationName": "Irish Sea",
+        "latitude": 53.2981,
+        "longitude": -5.559,
+        "adjacent": ["Celtic Sea", "Dublin", "The Isles Strait"]
+    },
+    {
+        "locationName": "The Isles Strait",
+        "latitude": 55.379,
+        "longitude": -6.009,
+        "adjacent": ["Irish Sea"]
+    },
+    {
+        "locationName": "The Isles Sea",
+        "latitude": 58.791,
+        "longitude": -11.997,
+        "adjacent": ["The Isles Strait", "Northern Atlantic 1"]
+    },
+    {
+        "locationName": "The Faroe Sea",
+        "latitude": 59.7785,
+        "longitude": -2.59277,
+        "adjacent": ["The Isles Sea", "Sea of Edinburgh", "Baltic Entrance 1"]
+    },
+    {
+        "locationName": "Bay of Biscay",
+        "latitude": 45.7368,
+        "longitude": -4.1088,
+        "adjacent": ["Celtic Sea", "Coast of Galicia"]
+    },
+    {
+        "locationName": "Coast of Galicia",
+        "latitude": 44.01,
+        "longitude": -9.9316,
+        "adjacent": ["Bay of Biscay", "Celtic Sea", "Gulf of Cadiz", "Northern Atlantic 1"]
+    },
+    {
+        "locationName": "Gulf of Cadiz",
+        "latitude": 37.544,
+        "longitude": -11.03,
+        "adjacent": ["Coast of Galicia", "Lisbon", "Straits of Gibraltar", "Coast of Morocco", "Northern Atlantic 2"]
+    },
+    {
+        "locationName": "Straits of Gibraltar",
+        "latitude": 35.92686,
+        "longitude": -5.5508,
+        "adjacent": ["Gulf of Cadiz", "Tangier", "Gulf of Almeria", "Coast of Morocco"]
+    },
+    {
+        "locationName": "Gulf of Almeria",
+        "latitude": 36.59788,
+        "longitude": -0.61523,
+        "adjacent": ["Straits of Gibraltar", "Gulf of Valencia", "Barbary Coast"]
+    },
+    {
+        "locationName": "Gulf of Valencia",
+        "latitude": 39.2662,
+        "longitude": 0.50537,
+        "adjacent": ["Gulf of Almeria", "Valencia", "Gulf of Marseille", "Barbary Coast"]
+    },
+    {
+        "locationName": "Gulf of Marseille",
+        "latitude": 42.407,
+        "longitude": 4.79,
+        "adjacent": ["Gulf of Valencia", "Marseille", "Ligurian Sea", "Barbary Coast"]
+    },
+    {
+        "locationName": "Ligurian Sea",
+        "latitude": 43.6917,
+        "longitude": 9.0967,
+        "adjacent": ["Gulf of Marseille", "Genoa", "Straits of Messina", "Cape Bon"]
+    },
+    {
+        "locationName": "Straits of Messina",
+        "latitude": 38.169,
+        "longitude": 15.6115,
+        "adjacent": ["Ligurian Sea", "Messina", "Cape Bon", "Sea of Crete", "Gulf of Sirte"]
+    },
+    {
+        "locationName": "Cape Bon",
+        "latitude": 38.1,
+        "longitude": 10.1953,
+        "adjacent": ["Straits of Messina", "Ligurian Sea", "Carthage", "Barbary Coast", "Gulf of Sirte"]
+    },
+    {
+        "locationName": "Barbary Coast",
+        "latitude": 37.89219,
+        "longitude": 5.07568,
+        "adjacent": ["Gulf of Almeria", "Gulf of Valencia", "Gulf of Marseille", "Cape Bon"]
+    },
+    {
+        "locationName": "Sea of Crete",
+        "latitude": 36.2708,
+        "longitude": 24.3127,
+        "adjacent": ["Straits of Messina", "Pireaus", "Aegean Sea", "Bay of Alexandria", "Gulf of Sirte"]
+    },
+    {
+        "locationName": "Aegean Sea",
+        "latitude": 39.58,
+        "longitude": 25.2575,
+        "adjacent": ["Sea of Crete", "Sea of Marmara"]
+    },
+    {
+        "locationName": "Sea of Marmara",
+        "latitude": 40.705,
+        "longitude": 28.2019,
+        "adjacent": ["Aegean Sea", "Istanbul"]
+    },
+    {
+        "locationName": "Bay of Alexandria",
+        "latitude": 31.709,
+        "longitude": 29.9707,
+        "adjacent": ["Sea of Crete", "Alexandria", "Gulf of Sirte", "North Suez"]
+    },
+    {
+        "locationName": "Gulf of Sirte",
+        "latitude": 33.3764,
+        "longitude": 20.4565,
+        "adjacent": ["Cape Bon", "Straits of Messina", "Sea of Crete", "Bay of Alexandria"]
+    },
+    {
+        "locationName": "North Suez",
+        "latitude": 31.3067,
+        "longitude": 32.3437,
+        "adjacent": ["Bay of Alexandria", "South Suez"]
+    },
+    {
+        "locationName": "South Suez",
+        "latitude": 29.54478,
+        "longitude": 32.5415,
+        "adjacent": ["North Suez", "Straits of Yemen"]
+    },
+    {
+        "locationName": "Straits of Yemen",
+        "latitude": 12.415,
+        "longitude": 43.385,
+        "adjacent": ["South Suez", "Qamr Bay", "Djibouti"]
+    },
+    {
+        "locationName": "Qamr Bay",
+        "latitude": 14.22178,
+        "longitude": 55.722,
+        "adjacent": ["Straits of Yemen", "Gulf of Omen", "Konkan Coast", "Laccadive Sea", "Somalian Sea"]
+    },
+    {
+        "locationName": "Gulf of Omen",
+        "latitude": 22.9179,
+        "longitude": 61.743,
+        "adjacent": ["Qamr Bay", "Gulf of Gujarat", "Strait of Hormuz"]
+    },
+    {
+        "locationName": "Strait of Hormuz",
+        "latitude": 26.5787,
+        "longitude": 56.4,
+        "adjacent": ["Gulf of Omen", "Persian Gulf"]
+    },
+    {
+        "locationName": "Persian Gulf",
+        "latitude": 26.6278,
+        "longitude": 51.2622,
+        "adjacent": ["Strait of Hormuz", "Kuwait"]
+    },
+    {
+        "locationName": "Gulf of Gujarat",
+        "latitude": 23.68477,
+        "longitude": 66.4,
+        "adjacent": ["Qamr Bay", "Karachi", "Konkan Coast"]
+    },
+    {
+        "locationName": "Konkan Coast",
+        "latitude": 18.229,
+        "longitude": 71.543,
+        "adjacent": ["Gulf of Gujarat", "Gulf of Omen", "Mumbai", "Qamr Bay", "Laccadive Sea"]
+    },
+    {
+        "locationName": "Laccadive Sea",
+        "latitude": 9.6224,
+        "longitude": 74.223,
+        "adjacent": ["Qamr Bay", "Konkan Coast", "Horn of India", "Kochi"]
+    },
+    {
+        "locationName": "Horn of India",
+        "latitude": 7.188,
+        "longitude": 77.475,
+        "adjacent": ["Laccadive Sea", "Coast of Orissa", "Ceylon Sea", "Somalian Sea"]
+    },
+    {
+        "locationName": "Coast of Orissa",
+        "latitude": 18.854,
+        "longitude": 85.29785,
+        "adjacent": ["Horn of India", "Ganges Delta", "Ceylon Sea", "Straits of Malacca"]
+    },
+    {
+        "locationName": "Ganges Delta",
+        "latitude": 21.412,
+        "longitude": 90.7251,
+        "adjacent": ["Coast of Orissa", "Chittagong", "Straits of Malacca"]
+    },
+    {
+        "locationName": "Ceylon Sea",
+        "latitude": 4.78447,
+        "longitude": 82,
+        "adjacent": ["Coast of Orissa", "Horn of India", "Straits of Malacca", "Madagascar Basin", "Sunda Strait"]
+    },
+    {
+        "locationName": "Straits of Malacca",
+        "latitude": 6.708,
+        "longitude": 95.6689,
+        "adjacent": ["Ceylon Sea", "Coast of Orissa", "Ganges Delta", "Straits of Johor"]
+    },
+    {
+        "locationName": "Straits of Johor",
+        "latitude": 0.582265,
+        "longitude": 103.85376,
+        "adjacent": ["Straits of Malacca", "Singapore", "Malayan Sea", "Java Sea"]
+    },
+    {
+        "locationName": "Malayan Sea",
+        "latitude": 5.0909,
+        "longitude": 105.84,
+        "adjacent": ["Straits of Johor", "Gulf of Thailand", "Cam Ranh Bay", "Java Sea"]
+    },
+    {
+        "locationName": "Gulf of Thailand",
+        "latitude": 11.286,
+        "longitude": 100.744,
+        "adjacent": ["Malayan Sea", "Bangkok"]
+    },
+    {
+        "locationName": "Cam Ranh Bay",
+        "latitude": 9.2322,
+        "longitude": 107.27,
+        "adjacent": ["Malayan Sea", "Saigon", "Coast of Annam"]
+    },
+    {
+        "locationName": "Coast of Annam",
+        "latitude": 12.3829,
+        "longitude": 110.346679,
+        "adjacent": ["Cam Ranh Bay", "Guangzhou Bay"]
+    },
+    {
+        "locationName": "Guangzhou Bay",
+        "latitude": 21.33,
+        "longitude": 113.86,
+        "adjacent": ["Coast of Annam", "Hong Kong", "Taiwan Strait"]
+    },
+    {
+        "locationName": "Taiwan Strait",
+        "latitude": 24.5671,
+        "longitude": 120.1465,
+        "adjacent": ["Guangzhou Bay", "Yang Tse Delta"]
+    },
+    {
+        "locationName": "Yang Tse Delta",
+        "latitude": 30,
+        "longitude": 123,
+        "adjacent": ["Taiwan Strait", "Shanghai", "South Korean Sea", "Amakusa Sea"]
+    },
+    {
+        "locationName": "South Korean Sea",
+        "latitude": 34.642,
+        "longitude": 128.9795,
+        "adjacent": ["Yang Tse Delta", "Busan", "Amakusa Sea"]
+    },
+    {
+        "locationName": "Amakusa Sea",
+        "latitude": 32.11,
+        "longitude": 129.287,
+        "adjacent": ["South Korean Sea", "Yang Tse Delta", "Dejima"]
+    },
+    {
+        "locationName": "Mozambique Channel",
+        "latitude": -14.6048,
+        "longitude": 42.7148,
+        "adjacent": ["West Horn of Africa", "Somalian Sea"]
+    },
+    {
+        "locationName": "Somalian Sea",
+        "latitude": -5.35,
+        "longitude": 45.1757,
+        "adjacent": ["Qamr Bay", "Mozambique Channel", "Mombasa"]
+    },
+    {
+        "locationName": "West Horn of Africa",
+        "latitude": -34.5,
+        "longitude": 29.7949,
+        "adjacent": ["Madagascar Basin", "Mozambique Channel", "East Horn of Africa"]
+    },
+    {
+        "locationName": "East Horn of Africa",
+        "latitude": -35.1,
+        "longitude": 17.5,
+        "adjacent": ["West Horn of Africa", "Cape Town", "Coast of Angola", "Coast of Gambia", "Coast of Brazil", "La Plata River", "Coast of Porto Seguro"]
+    },
+    {
+        "locationName": "Madagascar Basin",
+        "latitude": -27.3717,
+        "longitude": 48.867,
+        "adjacent": ["West Horn of Africa", "Ceylon Sea", "Sunda Strait"]
+    },
+    {
+        "locationName": "Java Sea",
+        "latitude": -3.11857,
+        "longitude": 109.27,
+        "adjacent": ["Straits of Johor", "Sunda Strait", "Malayan Sea"]
+    },
+    {
+        "locationName": "Sunda Strait",
+        "latitude": -6.05316,
+        "longitude": 105.754,
+        "adjacent": ["Java Sea", "Madagascar Basin", "Ceylon Sea"]
+    },
+    {
+        "locationName": "Coast of Gambia",
+        "latitude": 9.6224,
+        "longitude": -19.6,
+        "adjacent": ["Mauretanian Coast", "Ivory Coast", "East Horn of Africa", "Coast of Brazil", "Northern Atlantic 3"]
+    },
+    {
+        "locationName": "Mauretanian Coast",
+        "latitude": 23,
+        "longitude": -18.633,
+        "adjacent": ["Coast of Gambia", "Coast of Morocco", "Northern Atlantic 2", "Northern Atlantic 3"]
+    },
+    {
+        "locationName": "Coast of Morocco",
+        "latitude": 34.052,
+        "longitude": -10.06347,
+        "adjacent": ["Mauretanian Coast", "Straits of Gibraltar", "Gulf of Cadiz", "Northern Atlantic 2"]
+    },
+    {
+        "locationName": "Ivory Coast",
+        "latitude": 1.31824,
+        "longitude": -2.9,
+        "adjacent": ["Coast of Gambia", "Coast of Angola", "Abidjan", "Coast of Brazil"]
+    },
+    {
+        "locationName": "Coast of Angola",
+        "latitude": -17.8,
+        "longitude": 9.755859,
+        "adjacent": ["Ivory Coast", "East Horn of Africa", "Coast of Porto Seguro", "Coast of Brazil"]
+    },
+
+    {
+        "locationName": "Gulf of St. Lawrence 1",
+        "latitude": 49.724479,
+        "longitude": -65.346679,
+        "adjacent": ["Montreal", "Gulf of St. Lawrence 2"]
+    },
+    {
+        "locationName": "Gulf of St. Lawrence 2",
+        "latitude": 45.98,
+        "longitude": -58.1396,
+        "adjacent": ["Gulf of St. Lawrence 1", "Northern Atlantic 1", "Northern Atlantic 2", "Massachusetts Bay"]
+    },
+    {
+        "locationName": "Massachusetts Bay",
+        "latitude": 39.8085,
+        "longitude": -73.015,
+        "adjacent": ["Gulf of St. Lawrence 2", "New York", "Cape Hatteras", "Northern Atlantic 2"]
+    },
+    {
+        "locationName": "Cape Hatteras",
+        "latitude": 31.5,
+        "longitude": -80.09,
+        "adjacent": ["Massachusetts Bay", "Northern Atlantic 2", "Florida Straits", "Savannah"]
+    },
+    {
+        "locationName": "Florida Straits",
+        "latitude": 23.9059,
+        "longitude": -79.6948,
+        "adjacent": ["Cape Hatteras", "Gulf of Mexico", "Jamaica Channel"]
+    },
+    {
+        "locationName": "Gulf of Mexico",
+        "latitude": 24.92629,
+        "longitude": -90.26367,
+        "adjacent": ["Florida Straits", "New Orleans", "Vera Cruz", "Caribbean Sea"]
+    },
+    {
+        "locationName": "Jamaica Channel",
+        "latitude": 20.0559,
+        "longitude": -73.828,
+        "adjacent": ["Florida Straits", "Caribbean Sea", "Lesser Antilles"]
+    },
+    {
+        "locationName": "Caribbean Sea",
+        "latitude": 15.029685,
+        "longitude": -76.3769,
+        "adjacent": ["Gulf of Mexico", "Jamaica Channel", "Lesser Antilles", "Venezualan Sea", "Upper Panama"]
+    },
+    {
+        "locationName": "Upper Panama",
+        "latitude": 9.4273866,
+        "longitude": -79.953,
+        "adjacent": ["Caribbean Sea", "Lower Panama"]
+    },
+    {
+        "locationName": "Lower Panama",
+        "latitude": 8.8525,
+        "longitude": -79.51355,
+        "adjacent": ["Upper Panama", "Gulf of Panama"]
+    },
+    {
+        "locationName": "Venezualan Sea",
+        "latitude": 12.297,
+        "longitude": -67.28,
+        "adjacent": ["Lesser Antilles", "Caribbean Sea", "Puerto Cabello", "Cape Orange"]
+    },
+    {
+        "locationName": "Cape Orange",
+        "latitude": 5.0909,
+        "longitude": -50.1,
+        "adjacent": ["Venezualan Sea", "Northern Atlantic 3", "Amazon Gulf"]
+    },
+    {
+        "locationName": "Amazon Gulf",
+        "latitude": -0.87887,
+        "longitude": -43.33,
+        "adjacent": ["Cape Orange", "Porto do Itaqui", "Coast of Brazil"]
+    },
+    {
+        "locationName": "Coast of Brazil",
+        "latitude": -4.9158,
+        "longitude": -33.574,
+        "adjacent": ["Amazon Gulf", "Northern Atlantic 3", "Coast of Gambia", "Ivory Coast", "East Horn of Africa", "Coast of Porto Seguro", "Coast of Angola"]
+    },
+    {
+        "locationName": "Coast of Porto Seguro",
+        "latitude": -22.9179,
+        "longitude": -39.375,
+        "adjacent": ["Coast of Brazil", "Costa Verde", "East Horn of Africa", "Coast of Angola"]
+    },
+    {
+        "locationName": "Costa Verde",
+        "latitude": -25.2447,
+        "longitude": -45,
+        "adjacent": ["Coast of Porto Seguro", "Santos", "La Plata River"]
+    },
+    {
+        "locationName": "La Plata River",
+        "latitude": -35.78,
+        "longitude": -54.1,
+        "adjacent": ["Costa Verde", "Buenos Aires", "East Horn of Africa"]
+    },
+    {
+        "locationName": "Gulf of Panama",
+        "latitude": 6.075,
+        "longitude": -80.266,
+        "adjacent": ["Lower Panama", "Gulf of Guayaquil", "Manzanillo Bay"]
+    },
+    {
+        "locationName": "Gulf of Guayaquil",
+        "latitude": -6.49,
+        "longitude": -83.1445,
+        "adjacent": ["Gulf of Panama", "Arica Bend"]
+    },
+    {
+        "locationName": "Arica Bend",
+        "latitude": -18.2,
+        "longitude": -72.861,
+        "adjacent": ["Gulf of Guayaquil", "Arica"]
+    },
+    {
+        "locationName": "Manzanillo Bay",
+        "latitude": 17.22475,
+        "longitude": -102.656,
+        "adjacent": ["Gulf of Panama", "Lazaro Cardenas", "Gulf of Catalina"]
+    },
+    {
+        "locationName": "Gulf of Catalina",
+        "latitude": 27.8,
+        "longitude": -117.6416,
+        "adjacent": ["Manzanillo Bay", "Los Angeles Bay"]
+    },
+    {
+        "locationName": "Los Angeles Bay",
+        "latitude": 33,
+        "longitude": -119,
+        "adjacent": ["Gulf of Catalina", "Los Angeles", "Coast of Oakland"]
+    },
+    {
+        "locationName": "Coast of Oakland",
+        "latitude": 37.6,
+        "longitude": -124.7827,
+        "adjacent": ["Los Angeles Bay", "Oakland", "Coast of Oregon"]
+    },
+    {
+        "locationName": "Coast of Oregon",
+        "latitude": 42.61779,
+        "longitude": -126.21,
+        "adjacent": ["Coast of Oakland", "Puget Sound 1"]
+    },
+    {
+        "locationName": "Puget Sound 1",
+        "latitude": 48.51,
+        "longitude": -125.0244,
+        "adjacent": ["Coast of Oregon", "Puget Sound 2"]
+    },
+    {
+        "locationName": "Puget Sound 2",
+        "latitude": 48.3124,
+        "longitude": -123.173,
+        "adjacent": ["Puget Sound 1", "Puget Sound Vancouver", "Puget Sound Seattle"]
+    },
+    {
+        "locationName": "Puget Sound Vancouver",
+        "latitude": 49.22118,
+        "longitude": -123.398,
+        "adjacent": ["Puget Sound 2", "Vancouver"]
+    },
+    {
+        "locationName": "Puget Sound Seattle",
+        "latitude": 47.6117,
+        "longitude": -122.42,
+        "adjacent": ["Puget Sound 2", "Seattle"]
+    },
+    {
+        "locationName": "Lesser Antilles",
+        "latitude": 18.062,
+        "longitude": -61.171875,
+        "adjacent": ["Jamaica Channel", "Northern Atlantic 3", "Caribbean Sea", "Venezualan Sea"]
+    },
+    {
+        "locationName": "Northern Atlantic 1",
+        "latitude": 47.754,
+        "longitude": -34.277,
+        "adjacent": ["Gulf of St. Lawrence 2", "Celtic Sea", "Coast of Galicia", "The Isles Sea"]
+    },
+    {
+        "locationName": "Northern Atlantic 2",
+        "latitude": 34.016,
+        "longitude": -43.418,
+        "adjacent": ["Gulf of St. Lawrence 2", "Massachusetts Bay", "Cape Hatteras", "Gulf of Cadiz", "Coast of Morocco", "Mauretanian Coast"]
+    },
+    {
+        "locationName": "Northern Atlantic 3",
+        "latitude": 19.642587,
+        "longitude": -42,
+        "adjacent": ["Lesser Antilles", "Cape Orange", "Coast of Brazil", "Mauretanian Coast", "Coast of Gambia"]
+    }
+]

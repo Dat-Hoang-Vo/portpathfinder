@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "UniqueMarker": 5,
+        "Latitude": 51.5,
+        "Longitude": 0.8,
+        "Adjacent": []
+    },
+    {
+        "id": 2,
+        "UniqueMarker": 6,
+        "Latitude": 51.45,
+        "Longitude": 2
+    },
+    {
+        "id": 3,
+        "UniqueMarker": 7,
+        "Latitude": 50.8,
+        "Longitude": 1.2
+    },
+    {
+        "id": 4,
+        "Latitude": 50.2,
+        "Longitude": -0.4
+    }
+]

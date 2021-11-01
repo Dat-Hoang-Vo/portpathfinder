@@ -1,0 +1,345 @@
+[
+    {
+        "portname": "Southampton",
+        "country": "Britain",
+        "Latitude": 50.9097,
+        "Longitude": -1.4357,
+        "Adjacent": ["English Channel"]
+    },
+    {
+        "portname": "Dublin",
+        "country": "Ireland",
+        "Latitude": 53.3494,
+        "Longitude": -6.2022,
+        "Adjacent": ["Irish Sea"]
+    },
+    {
+        "portname": "Leith",
+        "country": "Scotland",
+        "Latitude": 55.9760,
+        "Longitude": -3.1592,
+        "Adjacent": ["Sea of Edinburgh"]
+    },
+    {
+        "portname": "Rotterdam",
+        "country": "Netherland",
+        "Latitude": 51.9496,
+        "Longitude": 4.1453,
+        "Adjacent": ["North of Calais", "Lowlands Sea"]
+    },
+    {
+        "portname": "Hamburg",
+        "country": "Germany",
+        "Latitude": 53.55,
+        "Longitude": 9.8,
+        "Adjacent": ["Sea of Hamburg"]
+    },
+    {
+        "portname": "Brest",
+        "country": "France",
+        "Latitude": 48.3857,
+        "Longitude": -4.4698,
+        "Adjacent": ["Celtic Sea"]
+    },
+    {
+        "portname": "Lisbon",
+        "country": "Portugal",
+        "Latitude": 38.7083,
+        "Longitude": -9.137,
+        "Adjacent": ["Gulf of Cadiz"]
+    },
+    {
+        "portname": "Valencia",
+        "country": "Spain",
+        "Latitude": 39.4481,
+        "Longitude": -0.3169,
+        "Adjacent": ["Gulf of Valencia"]
+    },
+    {
+        "portname": "Tangier",
+        "country": "Morocco",
+        "Latitude": 35.7895,
+        "Longitude": -5.8067,
+        "Adjacent": ["Straits of Gibraltar"]
+    },
+    {
+        "portname": "Messina",
+        "country": "Italy",
+        "Latitude": 38.1894,
+        "Longitude": 15.5574,
+        "Adjacent": ["Straits of Messina"]
+    },
+    {
+        "portname": "Genoa",
+        "country": "Italy",
+        "Latitude": 44.4028,
+        "Longitude": 8.91667,
+        "Adjacent": ["Ligurian Sea"]
+    },
+    {
+        "portname": "Marseille",
+        "country": "France",
+        "Latitude": 43.3035,
+        "Longitude": 5.3630,
+        "Adjacent": ["Gulf of Marseille"]
+    },
+    {
+        "portname": "Istanbul",
+        "country": "Turkey",
+        "Latitude": 41.0329,
+        "Longitude": 28.9932,
+        "Adjacent": ["Sea of Marmara"]
+    },
+    {
+        "portname": "Alexandria",
+        "country": "Egypt",
+        "Latitude": 31.205753,
+        "Longitude": 29.924526,
+        "Adjacent": ["Bay of Alexandria"]
+    },
+    {
+        "portname": "Carthage",
+        "country": "Tunis",
+        "Latitude": 36.8450,
+        "Longitude": 10.3255,
+        "Adjacent": ["Cape Bon"]
+    },
+    {
+        "portname": "Pireaus",
+        "country": "Greece",
+        "Latitude": 37.9406,
+        "Longitude": 23.6333,
+        "Adjacent": ["Sea of Crete"]
+    },
+    {
+        "portname": "Singapore",
+        "country": "Singapore",
+        "Latitude": 1.264,
+        "Longitude": 103.84,
+        "Adjacent": ["Straits of Johor"]
+    },
+    {
+        "portname": "Karachi",
+        "country": "Pakistan",
+        "Latitude": 24.8359,
+        "Longitude": 66.9832,
+        "Adjacent": ["Gulf of Gujarat"]
+    },
+    {
+        "portname": "Mumbai",
+        "country": "India",
+        "Latitude": 18.9601,
+        "Longitude": 72.8502,
+        "Adjacent": ["Konkan Coast"]
+    },
+    {
+        "portname": "Kochi",
+        "country": "India",
+        "Latitude": 9.9546,
+        "Longitude": 76.2678,
+        "Adjacent": ["Laccadive Sea"]
+    },
+    {
+        "portname": "Chittagong",
+        "country": "Bangladesh",
+        "Latitude": 22.3091,
+        "Longitude": 91.8018,
+        "Adjacent": ["Ganges Delta"]
+    },
+    {
+        "portname": "Saigon",
+        "country": "Vietnam",
+        "Latitude": 10.8225,
+        "Longitude": 106.754,
+        "Adjacent": ["Cam Ranh Bay"]
+    },
+    {
+        "portname": "Hong Kong",
+        "country": "China",
+        "Latitude": 22.2825,
+        "Longitude": 114.1690,
+        "Adjacent": ["Guangzhou Bay"]
+    },
+    {
+        "portname": "Shanghai",
+        "country": "China",
+        "Latitude": 31.2198,
+        "Longitude": 121.487,
+        "Adjacent": ["Yang Tse Delta"]
+    },
+    {
+        "portname": "Busan",
+        "country": "South Korea",
+        "Latitude": 35.1035,
+        "Longitude": 129.0424,
+        "Adjacent": ["South Korean Sea"]
+    },
+    {
+        "portname": "Dejima",
+        "country": "Japan",
+        "Latitude": 32.7435,
+        "Longitude": 129.873,
+        "Adjacent": ["Amakusa Sea"]
+    },
+    {
+        "portname": "Bangkok",
+        "country": "Thailand",
+        "Latitude": 13.7037,
+        "Longitude": 100.5754,
+        "Adjacent": ["Gulf of Thailand"]
+    },
+    {
+        "portname": "Cape Town",
+        "country": "Africa",
+        "Latitude": -33.9043,
+        "Longitude": 18.4301,
+        "Adjacent": ["East Horn of Africa"]
+    },
+    {
+        "portname": "Kuwait",
+        "country": "Kuwait",
+        "Latitude": 29.3472,
+        "Longitude": 47.916,
+        "Adjacent": ["Persian Gulf"]
+    },
+    {
+        "portname": "Los Angeles",
+        "country": "USA",
+        "Latitude": 33.7318,
+        "Longitude": -118.276,
+        "Adjacent": ["Los Angeles Bay"]
+    },
+    {
+        "portname": "Vancouver",
+        "country": "Canada",
+        "Latitude": 49.2889,
+        "Longitude": -123.1115,
+        "Adjacent": ["Puget Sound Vancouver"]
+    },
+    {
+        "portname": "New York",
+        "country": "USA",
+        "Latitude": 40.6840,
+        "Longitude": -74.0062,
+        "Adjacent": ["Massachusetts Bay"]
+    },
+    {
+        "portname": "Montreal",
+        "country": "Canada",
+        "Latitude": 45.5043,
+        "Longitude": -73.5496,
+        "Adjacent": ["Gulf of St. Lawrence 1"]
+    },
+    {
+        "portname": "Savannah",
+        "country": "USA",
+        "Latitude": 32.1284,
+        "Longitude": -81.1515,
+        "Adjacent": ["Cape Hatteras"]
+    },
+    {
+        "portname": "Buenos Aires",
+        "country": "Argentina",
+        "Latitude": -34.6177,
+        "Longitude": -58.3621,
+        "Adjacent": ["La Plata River"]
+    },
+    {
+        "portname": "Santos",
+        "country": "Brazil",
+        "Latitude": -23.966,
+        "Longitude": -46.3019,
+        "Adjacent": ["Costa Verde"]
+    },
+    {
+        "portname": "Puerto Cabello",
+        "country": "Venezuala",
+        "Latitude": 10.47,
+        "Longitude": -68.017,
+        "Adjacent": ["Venezualan Sea"]
+    },
+    {
+        "portname": "Arica",
+        "country": "Chile",
+        "Latitude": -18.4753,
+        "Longitude": -70.3216,
+        "Adjacent": ["Arica Bend"]
+    },
+    {
+        "portname": "Lazaro Cardenas",
+        "country": "Mexico",
+        "Latitude": 17.9270,
+        "Longitude": -102.169,
+        "Adjacent": ["Manzanillo Bay"]
+    },
+    {
+        "portname": "Vera Cruz",
+        "country": "Mexico",
+        "Latitude": 19.1738,
+        "Longitude": -96.1342,
+        "Adjacent": ["Gulf of Mexico"]
+    },
+    {
+        "portname": "New Orleans",
+        "country": "USA",
+        "Latitude": 29.9371,
+        "Longitude": -90.0614,
+        "Adjacent": ["Gulf of Mexico"]
+    },
+    {
+        "portname": "Seattle",
+        "country": "USA",
+        "Latitude": 47.4502,
+        "Longitude": -122.3088,
+        "Adjacent": ["Puget Sound Seattle"]
+    },
+    {
+        "portname": "Oakland",
+        "country": "USA",
+        "Latitude": 37.7957,
+        "Longitude": -122.2792,
+        "Adjacent": ["Coast of Oakland"]
+    },
+    {
+        "portname": "Porto do Itaqui",
+        "country": "Brazil",
+        "Latitude": -2.5777,
+        "Longitude": -44.3673,
+        "Adjacent": ["Amazon Gulf"]
+    },
+    {
+        "portname": "Abidjan",
+        "country": "Cote d'Ivoire",
+        "Latitude": 5.3042,
+        "Longitude": -4.0231,
+        "Adjacent": ["Ivory Coast"]
+    },
+    {
+        "portname": "Djibouti",
+        "country": "Djibouti",
+        "Latitude": 11.6087,
+        "Longitude": 43.1425,
+        "Adjacent": ["Straits of Yemen"]
+    },
+    {
+        "portname": "Mombasa",
+        "country": "Kenya",
+        "Latitude": -4.0435,
+        "Longitude": 39.6682,
+        "Adjacent": ["Somalian Sea"]
+    },
+    {
+        "portname": "Aarhus",
+        "country": "Denmark",
+        "Latitude": 56.166,
+        "Longitude": 10.2274,
+        "Adjacent": ["Baltic Entrance 4"]
+    },
+    {
+        "portname": "Gothenburg",
+        "country": "Sweden",
+        "Latitude": 57.7017,
+        "Longitude": 11.9479,
+        "Adjacent": ["Baltic Entrance 2"]
+    }
+]
