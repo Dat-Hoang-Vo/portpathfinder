@@ -420,16 +420,16 @@ const MainMap = () => {
                     <Box>
                     <Typography sx={{display: 'inline'}}>Display Speed</Typography>
                     <ToggleButtonGroup value={displaySpeed} exclusive onChange={(event, newSpeed) => {setDisplaySpeed(newSpeed)}} color="warning">
-                        <ToggleButton value={0.1}>
+                        <ToggleButton value={0.1} disabled={drawingRoute}>
                             <Typography sx={{color: '#f9f0e1'}}>Slow</Typography>
                         </ToggleButton>
-                        <ToggleButton value={0.25}>
+                        <ToggleButton value={0.25} disabled={drawingRoute}>
                             <Typography sx={{color: '#f9f0e1'}}>Normal</Typography>
                         </ToggleButton>
-                        <ToggleButton value={0.5}>
+                        <ToggleButton value={0.5} disabled={drawingRoute}>
                             <Typography sx={{color: '#f9f0e1'}}>Fast</Typography>
                         </ToggleButton>
-                        <ToggleButton value={0.8}>
+                        <ToggleButton value={0.8} disabled={drawingRoute}>
                             <Typography sx={{color: '#f9f0e1'}}>Ultra</Typography>
                         </ToggleButton>
                     </ToggleButtonGroup>
