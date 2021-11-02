@@ -414,7 +414,7 @@ const MainMap = () => {
                     <Box>
                         <Button variant="outlined" onClick={handleGetPath} style={{color: '#AACCFF', width: '40%'}}>Get Path</Button>
                         <Button variant="outlined" onClick={handleSetSail} style={{color: '#AACCFF', width: '40%'}} disabled={routeMemory === null || drawingRoute}>Draw Path</Button>
-                        <Button variant="outlined" onClick={handleClearPath} style={{color: '#AACCFF', width: '40%'}}>Clear Path</Button>
+                        <Button variant="outlined" onClick={handleClearPath} style={{color: '#AACCFF', width: '40%'}} disabled={drawingRoute === false}>Clear Path</Button>
                         <Button variant="outlined" onClick={handlePause} style={{color: '#AACCFF', width: '40%'}} disabled={drawingRoute === false}>Pause</Button>
                     </Box>
                     <Box>
