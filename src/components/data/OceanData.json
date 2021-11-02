@@ -434,14 +434,14 @@
     },
     {
         "locationName": "Massachusetts Bay",
-        "latitude": 39.8085,
-        "longitude": -73.015,
+        "latitude": 39,
+        "longitude": -72,
         "adjacent": ["Gulf of St. Lawrence 2", "New York", "Cape Hatteras", "Northern Atlantic 2"]
     },
     {
         "locationName": "Cape Hatteras",
         "latitude": 31.5,
-        "longitude": -80.09,
+        "longitude": -79,
         "adjacent": ["Massachusetts Bay", "Northern Atlantic 2", "Florida Straits", "Savannah"]
     },
     {
