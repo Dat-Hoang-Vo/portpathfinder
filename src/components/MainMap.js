@@ -440,7 +440,7 @@ const MainMap = () => {
                         <Typography><li>Due to MapBox limitations there are no pacific routes.</li></Typography>
                         <Typography><li>Due to the complex nature of calculating canal access cost, I've chosen not to.</li></Typography>
                         <Typography><li>Apologies to Australian and Indonesians.</li></Typography>
-                        <Typography><li>Altering speed mid drawing coudl lead to inaccurate routes</li></Typography>
+                        <Typography><li>Altering speed mid drawing could lead to inaccurate routes</li></Typography>
                         </ul>
                     </Box>
                     
