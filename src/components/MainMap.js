@@ -260,7 +260,8 @@ const MainMap = () => {
                 setUpdateTimer(20);
             }
             resetVisualization();
-            console.log("Lat " + (route[route.length - 1][1] - route[0][1]) + " Lon " + (route[route.length - 1][0] - route[0][0]));
+            //console.log("Lat " + (route[route.length - 1][1] - route[0][1]) + " Lon " + (route[route.length - 1][0] - route[0][0]));
+            
         }
     }
 
@@ -271,6 +272,12 @@ const MainMap = () => {
         if (route !== null) {
             resetVisualization();
         }
+
+        handleFinalClean();
+    }
+
+    const handleFinalClean= () => {
+        setCoordinates([[]]);
     }
 
     const [isPaused, setIsPaused] = useState(true);
@@ -406,9 +413,9 @@ const MainMap = () => {
                     </Box>
                     <Box>
                         <Button variant="outlined" onClick={handleGetPath} style={{color: '#AACCFF', width: '40%'}}>Get Path</Button>
-                        <Button variant="outlined" onClick={handleSetSail} style={{color: '#AACCFF', width: '40%'}}>Draw Path</Button>
-                        <Button variant="outlined" onClick={handlePause} style={{color: '#AACCFF', width: '40%'}}>Pause</Button>
+                        <Button variant="outlined" onClick={handleSetSail} style={{color: '#AACCFF', width: '40%'}} disabled={routeMemory === null || drawingRoute}>Draw Path</Button>
                         <Button variant="outlined" onClick={handleClearPath} style={{color: '#AACCFF', width: '40%'}}>Clear Path</Button>
+                        <Button variant="outlined" onClick={handlePause} style={{color: '#AACCFF', width: '40%'}} disabled={drawingRoute === false}>Pause</Button>
                     </Box>
                     <Box>
                     <Typography sx={{display: 'inline'}}>Display Speed</Typography>
