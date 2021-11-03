@@ -385,7 +385,7 @@ const MainMap = () => {
 
                 <Stack spacing={2} sx={{width: "90%", marginLeft: 'auto', marginRight: 'auto', marginTop: '2vh'}}>
                     <Box>
-                        <Typography variant="h6">Ship Description</Typography>
+                        <Typography variant="h6" sx={{fontWeight: 600}}>Ship Description</Typography>
                         <Typography>Sailing on the <Button onClick={handleOpenShipChoices} sx={{color: '#d65757', padding: '0'}}>{currentShip}</Button></Typography>
                         <Menu anchorEl={openShipChoices} open={open} onClose={handleCloseShipChoices}>{shipChoices}</Menu>
                         <Typography>Traveling at a rate of {shipSpeed} m/s</Typography>
@@ -418,7 +418,7 @@ const MainMap = () => {
                         <Button variant="outlined" onClick={handlePause} style={{color: '#AACCFF', width: '40%'}} disabled={drawingRoute === false}>Pause</Button>
                     </Box>
                     <Box>
-                    <Typography sx={{display: 'inline'}}>Display Speed</Typography>
+                    <Typography sx={{display: 'inline', fontWeight: 600}}>Display Speed</Typography>
                     <ToggleButtonGroup value={displaySpeed} exclusive onChange={(event, newSpeed) => {setDisplaySpeed(newSpeed)}} color="warning">
                         <ToggleButton value={0.1} disabled={drawingRoute}>
                             <Typography sx={{color: '#f9f0e1'}}>Slow</Typography>
@@ -435,19 +435,18 @@ const MainMap = () => {
                     </ToggleButtonGroup>
                     </Box>
                     <Box>
-                        <Typography variant="h6">Technicals</Typography>
+                        <Typography variant="h6" sx={{fontWeight: 600}}>Technicals</Typography>
                         <Typography>Pathfinder runtime: {djikstraRunTime}</Typography>
                         <Typography>Nodes Visited: {nodesChecked}</Typography>
                     </Box>
                     <Box>
                         <Typography sx={{display: 'inline'}}>Show Ocean Name</Typography>
                         <Switch checked={showOceanTiles} onClick={handleToggleOceanTiles} />
-                        <Typography variant="h6">Notes</Typography>
+                        <Typography variant="h6" sx={{fontWeight: 600}}>Notes</Typography>
                         <ul style={{paddingLeft: '1vw', marginTop: '.4vh', marginBottom: '0'}}>
                         <Typography><li>Due to MapBox limitations there are no pacific routes.</li></Typography>
                         <Typography><li>Due to the complex nature of calculating canal access cost, I've chosen not to.</li></Typography>
-                        <Typography><li>Apologies to Australian and Indonesians.</li></Typography>
-                        <Typography><li>Altering speed mid drawing could lead to inaccurate routes</li></Typography>
+                        <Typography><li>Speed cannot be adjusted mid draw.</li></Typography>
                         </ul>
                     </Box>
                     
