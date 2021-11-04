@@ -380,7 +380,7 @@ const MainMap = () => {
             />
             </Source>
 
-            <Box sx={{width: '22vw', height: '90vh', backgroundColor: '#222233', color: '#f9f0e1', position: 'absolute', top: '5vh', left: '2vw', borderRadius: '1vh'}}>
+            <Box sx={{minWidth: '20vw', maxWidth: '30vw', height: '90vh', backgroundColor: '#222233', color: '#f9f0e1', position: 'absolute', top: '5vh', left: '2vw', borderRadius: '1vh'}}>
 
                 <Stack spacing={2} sx={{width: "90%", marginLeft: 'auto', marginRight: 'auto', marginTop: '2vh'}}>
                     <Box>
@@ -435,7 +435,7 @@ const MainMap = () => {
                     </Box>
                     <Box>
                         <Typography variant="h6" sx={{fontWeight: 600}}>Technicals</Typography>
-                        <Typography>Pathfinder runtime: {djikstraRunTime}</Typography>
+                        <Typography>Runtime: {djikstraRunTime}</Typography>
                         <Typography>Nodes Visited: {nodesChecked}</Typography>
                     </Box>
                     <Box>
