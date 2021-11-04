@@ -164,7 +164,7 @@ const MainMap = () => {
         var startTime = performance.now();
         setAddToRoute(getRoute(start, end, coordinateMap, adjacentMap, shipSpeed, costPerDay, shipClass));
         var endTime = performance.now();
-        setDjikstraRunTime(Math.round(endTime - startTime) + " ms");
+        setDjikstraRunTime(parseFloat(endTime - startTime).toFixed(1) + " ms");
         setIsPaused(true);
         setDrawingRoute(false);
     }
@@ -260,7 +260,6 @@ const MainMap = () => {
                 setUpdateTimer(20);
             }
             resetVisualization();
-            //console.log("Lat " + (route[route.length - 1][1] - route[0][1]) + " Lon " + (route[route.length - 1][0] - route[0][0]));
             
         }
     }
